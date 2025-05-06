@@ -40,6 +40,7 @@
             // 
             // lec2ShowBtn
             // 
+            this.lec2ShowBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lec2ShowBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lec2ShowBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lec2ShowBtn.ForeColor = System.Drawing.Color.DarkGoldenrod;
@@ -65,10 +66,11 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Coral;
-            this.button1.Location = new System.Drawing.Point(520, 398);
+            this.button1.Location = new System.Drawing.Point(698, 473);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(172, 36);
             this.button1.TabIndex = 3;
@@ -78,12 +80,13 @@
             // 
             // button2
             // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.button2.Location = new System.Drawing.Point(711, 434);
+            this.button2.Location = new System.Drawing.Point(698, 440);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(143, 27);
+            this.button2.Size = new System.Drawing.Size(172, 27);
             this.button2.TabIndex = 4;
             this.button2.Text = "ملحق للأسبوع الثاني";
             this.button2.UseVisualStyleBackColor = true;
@@ -102,10 +105,12 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.No;
+            this.button3.Enabled = false;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button3.Location = new System.Drawing.Point(342, 398);
+            this.button3.Location = new System.Drawing.Point(520, 440);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(172, 36);
             this.button3.TabIndex = 5;
@@ -114,10 +119,12 @@
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.No;
+            this.button4.Enabled = false;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkBlue;
-            this.button4.Location = new System.Drawing.Point(342, 440);
+            this.button4.Location = new System.Drawing.Point(520, 398);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(172, 36);
             this.button4.TabIndex = 6;
@@ -136,8 +143,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lec2ShowBtn);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "main";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.ShowIcon = false;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "مختبر البرمجة المرئية";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

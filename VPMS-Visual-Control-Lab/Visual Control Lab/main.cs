@@ -22,6 +22,12 @@ namespace Visual_Control_Lab
             Show();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            new Lec02_2().ShowDialog();             // فتح نافذة محاضرة2 وعرضها
+            Show();
+        }
         private void button1_Click_1(object sender, EventArgs e)
         {
             Hide();
@@ -31,11 +37,5 @@ namespace Visual_Control_Lab
 
         #endregion
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Hide();
-            new Lec02_2().ShowDialog();             // فتح نافذة محاضرة2 وعرضها
-            Show();
-        }
     }
 }
