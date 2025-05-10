@@ -181,5 +181,32 @@
   <ItemGroup>
     <None Include="Resources\خزان.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timeisup.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timeisup.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startup.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clok.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif-5ad830669c57f4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slide1.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
